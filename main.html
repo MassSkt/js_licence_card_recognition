@@ -1,0 +1,12 @@
+<script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
+<div>
+    <input type="file" id="uploader">
+</div>
+<div>
+    進捗: <span id="progress">0</span>%
+</div>
+<div>
+    <textarea id="ocrResult" style="height: 300px;width:300px;"></textarea>
+</div>
+<script async src=".\opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+<script src="./main.js"></script>
